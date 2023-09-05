@@ -30,9 +30,9 @@ class _HomeScreenState extends State<HomeScreen> {
       backgroundColor: Colors.transparent,
       body: Center(
         child: RiveAnimation.asset(
-          'https://cdn.rive.app/animations/vehicles.riv',
+          'assets/rive/loading.riv',
           controllers: [_controller],
-          // Update the play state when the widget's initialized
+          //Update the play state when the widget's initialized
           onInit: (_) => setState(() {}),
         ),
       ),
